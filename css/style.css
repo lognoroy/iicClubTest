@@ -1,0 +1,214 @@
+body{
+        background-color: #1C1919;
+        background-image: url('../img/b.png');
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-attachment: fixed;
+        background-size:100rem;
+        color: #fff;
+    }
+    .master
+    {
+        width: 83%;
+        margin: 0 auto;
+        padding-top:30px;
+    }
+button{
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+    .more
+    {
+        padding-right: 15px;
+    }
+    .search
+    {
+        padding-left: 15px;
+
+    }
+    #search {
+        top: 5%;
+        left:23.2rem;
+        position: absolute;
+        background: transparent;
+        border: none;
+        border-bottom: 3px solid #fff;
+        outline: none;
+        width: 0;
+        opacity: 0;
+        color: #fff;
+        font-size: 18px;
+    }
+    .right {
+        /*left: 40%;*/
+        right: 16%;
+        top: 20px;
+        position: absolute;
+    }
+    .hlinks {
+        padding: 20px 25px;
+        position: relative;
+        text-decoration: none;
+        font-size: 18px;
+        color: #fff;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .active.hlinks::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 100%;
+        height: 4px;
+        opacity: 0.9;
+        background-color: rgba(255, 245, 4, 0.5);
+        border-radius: 10rem; 
+    }
+    .hlinks:hover
+    {
+        text-decoration: none;
+        font-size: 18px;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+/* bodypart */
+#leftpart
+{
+    float: left; 
+    padding-top: 9.5rem;
+    padding-bottom: 5rem;
+}
+.one
+{
+    font-size: 20px; 
+    font-family: 'Acme';
+    padding-left: 8%;
+}
+.two
+{
+    font-size: 55px; 
+    font-family: 'Exo 2'; 
+    padding: 15px 6%;
+}
+.three
+{
+    font-size: 25px; 
+    font-family: 'Play'; 
+    max-width: 500px; 
+    padding-left: 6%;
+}
+.lower
+{
+    padding-top: 70px;
+}
+.lowerpic
+{
+    float: left;
+}
+.write
+{
+    float: left; 
+    padding-top: 70px; 
+    padding-left: 20px; 
+    width: 300px;
+}
+.mobile
+{
+    font-family: 'Acme'; 
+    color: #E24354; 
+    font-size: 20px; 
+    padding: 20px 0px;
+}
+.mist
+{
+    font-family: 'Roboto'; 
+    color: rgba(255, 255, 255, 0.5); 
+    font-size: 18px; 
+    padding: 20px 0px;
+}
+.download
+{
+    font-family: 'Acme';
+    color: rgba(255, 255, 255, 0.7); 
+    font-size: 20px; 
+    padding-top: 30px;
+}
+.line
+{
+    padding-top: 10px;
+}
+#common
+{
+    position:absolute;
+    top:1200px;
+}
+ol
+{
+    position:absolute;
+    top:1650px;
+}
+#second
+{
+    padding-top: 130px;
+    padding-left: 160px;
+    padding-bottom: 200px;
+}
+#img 
+{
+    padding-bottom: 200px;
+    padding-left: 100px;
+}
+#white h4
+{
+    color: rgb(243, 156, 156);
+    text-align: center;
+    position: relative; 
+    top: 120px;  
+    padding-bottom:50px;
+}
+#white p
+{
+    color: whitesmoke;
+    font-weight: light;
+    font-size: small;
+    position: relative; 
+    top: 90px; 
+    padding-bottom:100px; 
+}
+#pink h4
+{
+    color: rgb(243, 156, 156);
+    text-align: center;
+    position: relative; 
+    top: 79px; 
+    padding-bottom:50px;
+}
+#pink p
+{
+    color: whitesmoke;
+    font-weight: light;
+    font-size: small;
+    position: relative; 
+    top:50px; 
+    padding-bottom:100px;
+}
+#black h4
+{
+    color: rgb(243, 156, 156);
+    text-align: center;
+    position: relative; 
+    top: 120px;  
+    padding-bottom:50px;
+}
+#black p
+{
+    color: whitesmoke;
+    font-weight: light;
+    font-size: small;
+    position: relative; 
+    top: 90px; 
+    padding-bottom:100px;
+}
